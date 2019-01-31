@@ -1,0 +1,10 @@
+;                   ASSEMBLY LANGUAGE PROGRAM 1
+; Write a program to add two user- entered numbers.
+read
+add sum
+store sum 
+read
+add sum 
+store sum
+
+sum:  .data 2 0

@@ -1,0 +1,10 @@
+; Write a program to add the numbers entered by user until a 0 is entered.
+start: read                   ;AC<-N
+       jmpz done
+       add sum                ;AC<-AC+sum
+       store sum              ;sum<-AC
+       jump start
+done:  load sum               ;AC<-sum
+       write 
+       stop
+sum:  .data 2 0

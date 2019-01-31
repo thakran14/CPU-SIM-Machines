@@ -1,0 +1,12 @@
+;                  ASSEMBLY LANGUAGE PROGRAM 2
+; Write a program to subtract two user- entered numbers.
+read
+subtract difference
+store difference
+read
+subtract difference
+store difference
+done: load difference
+      write
+      stop
+difference:  .data 2 0 
